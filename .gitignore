@@ -1,0 +1,16 @@
+# Credenciais Google OAuth
+client_secret_*.json
+**/client_secret_*.json
+
+# Configurações e senhas SFTP
+.vscode/
+**/.vscode/
+
+# Arquivos de ambiente
+.env
+.env.*
+!.env.example
+
+# Credenciais Firebase
+*serviceAccount*.json
+*service-account*.json
