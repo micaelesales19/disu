@@ -14,3 +14,28 @@ client_secret_*.json
 # Credenciais Firebase
 *serviceAccount*.json
 *service-account*.json
+
+# -------------------------
+# Documentos e arquivos de referência
+# -------------------------
+*.pdf
+*.txt
+
+# Imagens de referência
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# -------------------------
+# Arquivos de configuração privados
+# -------------------------
+.vscode/
+**/.vscode/
+
+# Credenciais e ambientes
+client_secret_*.json
+.env
+.env.*
+!.env.example
