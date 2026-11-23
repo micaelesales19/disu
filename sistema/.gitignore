@@ -136,3 +136,39 @@ client_secret_*.json
 # Credenciais Firebase
 *serviceAccount*.json
 *service-account*.json
+
+# ---------------------------------
+# DOCUMENTOS
+# ---------------------------------
+*.pdf
+*.txt
+
+# ---------------------------------
+# IMAGENS
+# ---------------------------------
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.ico
+*.svg
+*.avif
+
+# ---------------------------------
+# FONTES
+# ---------------------------------
+*.ttf
+*.otf
+*.eot
+*.woff
+*.woff2
+
+# ---------------------------------
+# ARQUIVOS PRIVADOS
+# ---------------------------------
+client_secret_*.json
+.env
+.env.*
+!.env.example
